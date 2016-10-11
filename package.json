@@ -1,0 +1,19 @@
+{
+  "name": "wp2016",
+  "version": "1.0.0",
+  "description": "wp2016 exercise",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eddy0402/wp2016.git"
+  },
+  "author": "Eddy Wu (yukkcake@gmail.com)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Eddy0402/wp2016/issues"
+  },
+  "homepage": "https://github.com/Eddy0402/wp2016#readme"
+}
