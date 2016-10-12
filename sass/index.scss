@@ -1,7 +1,46 @@
 @import url(//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css);
 
-body{
-    background: rgba(215, 215, 255, 1);
+#avatar{
+  width:128px;
+  margin: 10px;
+  border:10px ridge #CCCCCC;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  margin:0px auto;
 }
 
+#photo{
+  text-align:center;
+}
 
+#contact{
+  text-align:center;
+}
+
+#contact ul{
+  list-style-type: none;
+  padding: 0px;
+}
+
+#contact li{
+  display:inline-block;
+}
+
+#contact li:after {
+  content: " ○ ";
+}
+#contact li:last-child:after {
+  content: "";
+}
+
+a:hover{
+  background-color: #CCCCCC;
+}
+
+a{
+  text-decoration: none;
+  color: #222222;
+  padding: 5px;
+  border-radius: 5px;
+}
